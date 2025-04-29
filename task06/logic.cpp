@@ -20,6 +20,8 @@ int pow_of_ten(int digits)
 	return 10 * pow_of_ten(digits - 1);
 }
 
+
+
 bool is_automorphic(int n)
 {
 	int sqr = n * n;
